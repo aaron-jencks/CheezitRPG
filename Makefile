@@ -27,4 +27,4 @@ astera/build/libastera.a:
 .PHONY:clean
 clean:
 	rm main $(OBJS)
-	rm -rf ./astera/build
+	rm -rf ./astera/build ./astera/dep/glfw/build
