@@ -9,8 +9,8 @@ extern "C" {
 #include <OpenAL/alc.h>
 #include <OpenAL/al.h>
 #else
-#include <alc.h>
-#include <al.h>
+#include <AL/alc.h>
+#include <AL/al.h>
 #endif
 
 #define STB_VORBIS_HEADER_ONLY
